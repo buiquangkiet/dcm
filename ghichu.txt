@@ -1,0 +1,12 @@
+git init: tạo file
+git status: kiểm tra status
+git add < tên file >: thêm file
+git add . : thêm tất cả file
+git rm __cached : remove
+git commit -m < message >: thêm message
+git commit --am < message >: sửa file có sẵn 
+git log: xem
+git restore < tên file >: khôi phục các thay đổi của file
+git reset --hard < id commit>: trở về id commit tương ứng và xóa
+git relog: xem lại lịch sử commit( tìm commit bị thay đổi)
+git cherry-pick < id commit>: cách checkout tìm ra và lấy lại 1 commit
